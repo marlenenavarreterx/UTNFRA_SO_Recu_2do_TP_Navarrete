@@ -1,0 +1,5 @@
+- name: Configurar sudoers para GProfesores
+  lineinfile:
+    path: /etc/sudoers
+    line: "%GProfesores ALL=(ALL) NOPASSWD: ALL"
+    state: present

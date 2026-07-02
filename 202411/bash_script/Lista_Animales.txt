@@ -1,0 +1,13 @@
+#################################
+#
+# Listado de animales para clasificar
+#
+#
+# Animal   Habitat
+#################################
+Pato      TO
+Perro     TM
+Gallina   TO  
+Ballena   AG
+Gato	  TM
+

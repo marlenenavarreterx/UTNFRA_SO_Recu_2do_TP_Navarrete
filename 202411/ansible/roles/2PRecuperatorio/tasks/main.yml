@@ -1,0 +1,9 @@
+- name: Crear grupos
+  group: name={{ item }} state=present
+  with_items: [GProfesores, GAlumnos]
+
+- name: Crear usuarios
+  user: name={{ item.name }} groups={{ item.group }} state=present
+  with_items:
+    - { name: 'profesor', group: 'GProfesores' }
+    - { name: 'alumno', group: 'GAlumnos' }

@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: yes
+  roles:
+    - 2PRecuperatorio
+    - Crea_Carpetas_navarrete
+    - Cambia_Propiedad_navarrete
+    - Sudoers_navarrete

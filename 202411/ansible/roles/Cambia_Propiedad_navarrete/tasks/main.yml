@@ -1,0 +1,5 @@
+- name: Cambiar dueño Alumno
+  file: path=/UTN/Alumno owner=alumno state=directory
+
+- name: Cambiar dueño Profesor
+  file: path=/UTN/Profesor owner=profesor state=directory

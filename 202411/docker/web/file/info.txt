@@ -1,0 +1,3 @@
+Nombre de tu usuario: mnavarrete
+ID de tu usuario: 1002
+Hash pass de tu usuario: $y$j9T$ZMojSBM4Zmqq3u3M9FO.g/$SQL0FCFQccH20t0bUO9QF4TtwCY5ALjzTkErAPz97j6

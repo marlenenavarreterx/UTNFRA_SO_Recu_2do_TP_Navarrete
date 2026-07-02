@@ -1,0 +1,23 @@
+2026-07-02 10:46:40,961 p=13139 u=root n=ansible | PLAY [localhost] *******************************************************************************************************************************************************************************
+2026-07-02 10:46:41,088 p=13139 u=root n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************
+2026-07-02 10:46:45,249 p=13139 u=root n=ansible | [WARNING]: Platform linux on host localhost is using the discovered Python interpreter at /usr/bin/python3.10, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-07-02 10:46:45,250 p=13139 u=root n=ansible | ok: [localhost]
+2026-07-02 10:46:45,272 p=13139 u=root n=ansible | TASK [2PRecuperatorio : Crear grupos] **********************************************************************************************************************************************************
+2026-07-02 10:46:46,318 p=13139 u=root n=ansible | changed: [localhost] => (item=GProfesores)
+2026-07-02 10:46:47,052 p=13139 u=root n=ansible | changed: [localhost] => (item=GAlumnos)
+2026-07-02 10:46:47,238 p=13139 u=root n=ansible | TASK [2PRecuperatorio : Crear usuarios] ********************************************************************************************************************************************************
+2026-07-02 10:46:48,683 p=13139 u=root n=ansible | changed: [localhost] => (item={'name': 'profesor', 'group': 'GProfesores'})
+2026-07-02 10:46:49,477 p=13139 u=root n=ansible | changed: [localhost] => (item={'name': 'alumno', 'group': 'GAlumnos'})
+2026-07-02 10:46:49,524 p=13139 u=root n=ansible | TASK [Crea_Carpetas_navarrete : Crear estructura /UTN/] ****************************************************************************************************************************************
+2026-07-02 10:46:50,510 p=13139 u=root n=ansible | changed: [localhost] => (item=Alumno)
+2026-07-02 10:46:51,110 p=13139 u=root n=ansible | changed: [localhost] => (item=Profesor)
+2026-07-02 10:46:51,163 p=13139 u=root n=ansible | TASK [Cambia_Propiedad_navarrete : Cambiar dueño Alumno] ***************************************************************************************************************************************
+2026-07-02 10:46:51,725 p=13139 u=root n=ansible | changed: [localhost]
+2026-07-02 10:46:51,755 p=13139 u=root n=ansible | TASK [Cambia_Propiedad_navarrete : Cambiar dueño Profesor] *************************************************************************************************************************************
+2026-07-02 10:46:52,409 p=13139 u=root n=ansible | changed: [localhost]
+2026-07-02 10:46:52,453 p=13139 u=root n=ansible | TASK [Sudoers_navarrete : Configurar sudoers para GProfesores] *********************************************************************************************************************************
+2026-07-02 10:46:53,498 p=13139 u=root n=ansible | changed: [localhost]
+2026-07-02 10:46:53,523 p=13139 u=root n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************
+2026-07-02 10:46:53,525 p=13139 u=root n=ansible | localhost                  : ok=7    changed=6    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

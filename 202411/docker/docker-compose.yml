@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: marlenenavarreterx/web2-navarrete:latest
+    ports:
+      - 81:80
+    volumes:
+      - ./web/file:/usr/share/nginx/html/file
