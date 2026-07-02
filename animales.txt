@@ -1,0 +1,15 @@
+20260702
+Animal: Pato
+Habitat: TO
+20260702
+Animal: Perro
+Habitat: TM
+20260702
+Animal: Gallina
+Habitat: TO
+20260702
+Animal: Ballena
+Habitat: AG
+20260702
+Animal: Gato
+Habitat: TM

@@ -1,0 +1,3 @@
+20260702
+Animal: Perro
+Habitat: TM
